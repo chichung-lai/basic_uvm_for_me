@@ -1,0 +1,48 @@
+version: (200506)
+
+available memory: 64M bytes
+used memory: 417792 bytes [need 408K bytes if disable swap]
+
+used block: 23 [memory(23) file(0)]
+                 [ 8K(19) 64K(4) { total 408K bytes } ]
+overhead: (9531) bytes for (23) blocks [Average: (414) bytes/block]
+
+write  => 0(times) 0K(bytes) [0K bytes to file]
+read   => 4(times) 149K(bytes) [32K bytes compressed data from file]
+access => 38089(times) 352M(bytes)
+          [hit ratio: 99.9895%]
+
+time: write(0) read(0.001)  unit: second
+
+swap file directory: (/home/ICer/Documents/basic_uvm/labs/lab_02/sv/verdiLog)
+used swap file number: (5)
+
+
+
+swap file manager:
+arrSize: (256)
+idxCnt: (6)
+closeHead: (1)
+closeTail: (5)
+openCnt: (4)
+fid(5): fd(1073741826) fileName(/home/ICer/Documents/basic_uvm/labs/lab_02/sv/simv.daidir/kdb.elab++/work.lib++/uvm_root.svh#inc__uvm_pkg__56#.tdc)
+	size(37221) lastModTime(1718899477) curModTime(1718899477)
+	mode(rb)	hot(0) cool(4) pos(0)
+fid(4): fd(1073741825) fileName(/home/ICer/Documents/basic_uvm/labs/lab_02/sv/simv.daidir/kdb.elab++/work.lib++/uvm_custom_install_verdi_recorder.sv.tdc)
+	size(12762) lastModTime(1718899479) curModTime(1718899479)
+	mode(rb)	hot(5) cool(2) pos(0)
+fid(3): fd(0) fileName(/home/ICer/Documents/basic_uvm/labs/lab_02/sv/simv.daidir/kdb.elab++/work.lib++/uvm_seed.vh#inc___vcs_unit__1__14#.tdc)
+	size(1125) lastModTime(1718899477) curModTime(1718899477)
+	mode(rb)	hot(0) cool(0) pos(0)
+fid(2): fd(38) fileName(/home/ICer/Documents/basic_uvm/labs/lab_02/sv/verdiLog/_swap_0001#8323328#105007)
+	size(0) lastModTime(0) curModTime(1718899704)
+	mode(w+b)	hot(4) cool(1) pos(0)
+fid(1): fd(1073741824) fileName(/home/ICer/Documents/basic_uvm/labs/lab_02/sv/simv.daidir/kdb.elab++/work.lib++/test.sv.tdc)
+	size(1040) lastModTime(1718899479) curModTime(1718899479)
+	mode(rb)	hot(2) cool(0) pos(0)
+fid(0): fd(0) fileName(NULL)
+	mode(NULL)	hot(0) cool(0) pos(0)
+==================================================
+mySelf(14d49ae0) pre(14d48e70) next(0)
+version(200506)
+date(Sep 28 2018 10:00:16)

@@ -1,0 +1,109 @@
+103c103
+<         $diplay("pad cycles = %0d", pad_cycles);
+---
+>         $display("pad cycles = %0d", pad_cycles);
+110c110
+<     virtual function pre_reset_phase(uvm_phase phase);
+---
+>     virtual task pre_reset_phase(uvm_phase phase);
+119c119
+<     endfunction
+---
+>     endtask
+148a149
+>             #100;
+163a165,166
+> 	      $display("test1",req.sa);
+> 	      $display("test2",m_vif.driver_cb.busy_n[req.sa]);
+165c168
+<             foreach(req.payoad[index]) begin
+---
+>             foreach(req.payload[index]) begin
+191,192d193
+<     virtual dut_interface m_vif;
+< 
+196,203c197,201
+<     
+<     virtual function void build_phase(uvm_phase phase);
+<         super.build_phase(phase);
+<         `uvm_info("TRACE", $sformatf("%m"), UVM_HIGH)
+<         if(!uvm_config_db#(virtual dut_interface)::get(this, "", "vif", m_vif))begin
+<             `uvm_fatal("CONFIG_FATAL", "Monitor can not get the interface !!!")
+<         end
+<     endfunction
+---
+> //    
+> //    virtual task reset_phase(uvm_phase phase);
+> //        #150;
+> //        `uvm_info("MON_RESET_PHASE", "Now Monitor reset phase running !", UVM_MEDIUM)
+> //    endtask
+207,233d204
+<         my_transaction tr;
+<         int active_port;
+<         logic [7:0] temp;
+<         int count;
+< 
+<         tr = my_transaction::type_id::create("tr");
+< 
+<         while(1)begin
+<             @(m_vif.imonitor_cb);
+<             foreach(m_vif.imonitor_cb.frame_n[i])begin
+<                 if(m_vif.imonitor_cb.frame_n[i]==0)begin
+<                     active_port = i;
+<                 end
+<             end
+<         
+<             if(active_port != 1) break;
+<         
+<             // Get the active id
+<             tr.sa = active_port;
+< 
+<             // Get the target address
+<             for(int i=0; i<4; i++) begin
+<                 tr.da[i] = m_vif.imonitor_cb.din[tr.sa];
+<                 @(m_vif.imonitor_cb)
+<             end
+< 
+<             // Get the payload
+235,252c206,207
+<                 if(m_vif.imonitor_cb.valid_n[tr.sa]==0)begin
+<                     temp[count] = m_vif.imonitor_cb.din[tr.sa];
+<                     count++;
+<                     if(count==8)begin
+<                         tr.payload.push_back(temp);
+<                         count=0;
+<                     end
+<                 end
+<                 if(m_vif.imonitor_cb.frame_n[tr.sa])begin
+<                     if(count!=0)begin
+<                         tr.payload.push_back(temp);
+<                         `uvm_warning("PAYLOAD_WARNING", "Payload not byte aligned !!!")
+<                     end
+<                     break;
+<                 end
+<                 @(m_vif.imonitor_cb);
+<             end
+<             `uvm_info("Monitor",{"\n", "Monitor Got An Input Transaction: \n", tr.sprint()}, UVM_MEDIUM)
+---
+>             `uvm_info("MON_RUN_PHASE", "Monitor run!", UVM_MEDIUM)
+>             #100;
+287,288d241
+<         uvm_config_db#(viryual dut_interface)::set(this, "m_moni", "vif", m_agent_cfg.m_vif);
+< 
+331c284
+<         if(m_enc_cfg.is_coverage) begin
+---
+>         if(m_env_cfg.is_coverage) begin
+335c288
+<         if(m_enc_cfg.is_check) begin
+---
+>         if(m_env_cfg.is_check) begin
+367c320
+<         uvm_config_db#(int)::set(this, "*.m_seqr", "item_num", 3);
+---
+>         uvm_config_db#(int)::set(this, "*.m_seqr", "item_num", 10);
+374,375c327
+<         if(!uvm_config_db#(virtual dut_interface)::get(
+<             this, "". "top_if", m_env_cfg.m_agent_cfg.m_vif))begin
+---
+>         if(!uvm_config_db#(virtual dut_interface)::get(this, "", "top_if", m_env_cfg.m_agent_cfg.m_vif))begin

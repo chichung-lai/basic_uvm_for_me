@@ -1,0 +1,352 @@
+#######################################################################################
+# log primitive debug message of FSDB dumping                                         #
+# This is for R&D to analyze when there are issues happening when FSDB dump           #
+#######################################################################################
+ANF: vcsd_get_serial_mode_status('./simv: undefined symbol: vcsd_get_serial_mode_status')
+ANF: vcsd_enable_sva_success_callback('./simv: undefined symbol: vcsd_enable_sva_success_callback')
+ANF: vcsd_disable_sva_success_callback('./simv: undefined symbol: vcsd_disable_sva_success_callback')
+ANF: vcsd_get_power_scope_name('./simv: undefined symbol: vcsd_get_power_scope_name')
+ANF: vcsd_begin_no_value_var_info('./simv: undefined symbol: vcsd_begin_no_value_var_info')
+ANF: vcsd_end_no_value_var_info('./simv: undefined symbol: vcsd_end_no_value_var_info')
+ANF: vcsd_remove_xprop_merge_mode_callback('./simv: undefined symbol: vcsd_remove_xprop_merge_mode_callback')
+ANF: vhpi_get_cb_info('./simv: undefined symbol: vhpi_get_cb_info')
+ANF: vhpi_free_handle('./simv: undefined symbol: vhpi_free_handle')
+ANF: vhpi_fetch_vcsd_handle('./simv: undefined symbol: vhpi_fetch_vcsd_handle')
+ANF: vhpi_fetch_vpi_handle('./simv: undefined symbol: vhpi_fetch_vpi_handle')
+ANF: vhpi_has_verilog_parent('./simv: undefined symbol: vhpi_has_verilog_parent')
+ANF: vhpi_is_verilog_scope('./simv: undefined symbol: vhpi_is_verilog_scope')
+ANF: scsd_xprop_is_enabled('./simv: undefined symbol: scsd_xprop_is_enabled')
+ANF: scsd_xprop_sig_is_promoted('./simv: undefined symbol: scsd_xprop_sig_is_promoted')
+ANF: scsd_xprop_int_xvalue('./simv: undefined symbol: scsd_xprop_int_xvalue')
+ANF: scsd_xprop_bool_xvalue('./simv: undefined symbol: scsd_xprop_bool_xvalue')
+ANF: scsd_xprop_enum_xvalue('./simv: undefined symbol: scsd_xprop_enum_xvalue')
+ANF: scsd_xprop_register_merge_mode_cb('./simv: undefined symbol: scsd_xprop_register_merge_mode_cb')
+ANF: scsd_xprop_delete_merge_mode_cb('./simv: undefined symbol: scsd_xprop_delete_merge_mode_cb')
+ANF: scsd_xprop_get_merge_mode('./simv: undefined symbol: scsd_xprop_get_merge_mode')
+ANF: scsd_thread_get_info('./simv: undefined symbol: scsd_thread_get_info')
+ANF: scsd_thread_vc_init('./simv: undefined symbol: scsd_thread_vc_init')
+ANF: scsd_master_set_delta_sync_cbk('./simv: undefined symbol: scsd_master_set_delta_sync_cbk')
+ANF: scsd_fgp_get_fsdb_cores('./simv: undefined symbol: scsd_fgp_get_fsdb_cores')
+ANF: msvEnableDumpingMode('./simv: undefined symbol: msvEnableDumpingMode')
+ANF: msvGetVersion('./simv: undefined symbol: msvGetVersion')
+ANF: msvGetInstProp('./simv: undefined symbol: msvGetInstProp')
+ANF: msvIsSpiceEngineReady('./simv: undefined symbol: msvIsSpiceEngineReady')
+ANF: msvSetAddProbeCallback('./simv: undefined symbol: msvSetAddProbeCallback')
+ANF: msvGetInstHandle('./simv: undefined symbol: msvGetInstHandle')
+ANF: msvGetProbeByInst('./simv: undefined symbol: msvGetProbeByInst')
+ANF: msvGetSigHandle('./simv: undefined symbol: msvGetSigHandle')
+ANF: msvGetProbeBySig('./simv: undefined symbol: msvGetProbeBySig')
+ANF: msvGetProbeInfo('./simv: undefined symbol: msvGetProbeInfo')
+ANF: msvRelease('./simv: undefined symbol: msvRelease')
+ANF: msvSetVcCallbackFunc('./simv: undefined symbol: msvSetVcCallbackFunc')
+ANF: msvCheckVcCallback('./simv: undefined symbol: msvCheckVcCallback')
+ANF: msvAddVcCallback('./simv: undefined symbol: msvAddVcCallback')
+ANF: msvRemoveVcCallback('./simv: undefined symbol: msvRemoveVcCallback')
+ANF: msvGetLatestValue('./simv: undefined symbol: msvGetLatestValue')
+ANF: msvSetEndofSimCallback('./simv: undefined symbol: msvSetEndofSimCallback')
+ANF: msvIgnoredProbe('./simv: undefined symbol: msvIgnoredProbe')
+ANF: msvGetThruNetInfo('./simv: undefined symbol: msvGetThruNetInfo')
+ANF: msvFreeThruNetInfo('./simv: undefined symbol: msvFreeThruNetInfo')
+ANF: PI_ace_get_output_time_unit('./simv: undefined symbol: PI_ace_get_output_time_unit')
+ANF: PI_ace_sim_sync('./simv: undefined symbol: PI_ace_sim_sync')
+ANF: msvGetRereadInitFile('./simv: undefined symbol: msvGetRereadInitFile')
+ANF: msvSetBeforeRereadCallback('./simv: undefined symbol: msvSetBeforeRereadCallback')
+ANF: msvSetAfterRereadCallback('./simv: undefined symbol: msvSetAfterRereadCallback')
+ANF: msvSetForceCallback('./simv: undefined symbol: msvSetForceCallback')
+ANF: msvSetReleaseCallback('./simv: undefined symbol: msvSetReleaseCallback')
+ANF: msvGetForceStatus('./simv: undefined symbol: msvGetForceStatus')
+ANF: vhdi_dt_get_type('./simv: undefined symbol: vhdi_dt_get_type')
+ANF: vhdi_dt_get_key('./simv: undefined symbol: vhdi_dt_get_key')
+ANF: vhdi_dt_get_vhdl_enum_info('./simv: undefined symbol: vhdi_dt_get_vhdl_enum_info')
+ANF: vhdi_dt_get_vhdl_physical_info('./simv: undefined symbol: vhdi_dt_get_vhdl_physical_info')
+ANF: vhdi_dt_get_vhdl_array_info('./simv: undefined symbol: vhdi_dt_get_vhdl_array_info')
+ANF: vhdi_dt_get_vhdl_record_info('./simv: undefined symbol: vhdi_dt_get_vhdl_record_info')
+ANF: vhdi_def_traverse_module('./simv: undefined symbol: vhdi_def_traverse_module')
+ANF: vhdi_def_traverse_scope('./simv: undefined symbol: vhdi_def_traverse_scope')
+ANF: vhdi_def_traverse_variable('./simv: undefined symbol: vhdi_def_traverse_variable')
+ANF: vhdi_def_get_module_id_by_vhpi('./simv: undefined symbol: vhdi_def_get_module_id_by_vhpi')
+ANF: vhdi_def_get_handle_by_module_id('./simv: undefined symbol: vhdi_def_get_handle_by_module_id')
+ANF: vhdi_def_get_variable_info_by_vhpi('./simv: undefined symbol: vhdi_def_get_variable_info_by_vhpi')
+ANF: vhdi_def_free('./simv: undefined symbol: vhdi_def_free')
+ANF: vhdi_ist_traverse_scope('./simv: undefined symbol: vhdi_ist_traverse_scope')
+ANF: vhdi_ist_traverse_variable('./simv: undefined symbol: vhdi_ist_traverse_variable')
+ANF: vhdi_ist_convert_by_vhpi('./simv: undefined symbol: vhdi_ist_convert_by_vhpi')
+ANF: vhdi_ist_clone('./simv: undefined symbol: vhdi_ist_clone')
+ANF: vhdi_ist_free('./simv: undefined symbol: vhdi_ist_free')
+ANF: vhdi_ist_hash_key('./simv: undefined symbol: vhdi_ist_hash_key')
+ANF: vhdi_ist_compare('./simv: undefined symbol: vhdi_ist_compare')
+ANF: vhdi_ist_get_value_addr('./simv: undefined symbol: vhdi_ist_get_value_addr')
+ANF: vhdi_set_scsd_callback('./simv: undefined symbol: vhdi_set_scsd_callback')
+ANF: vhdi_cbk_set_force_callback('./simv: undefined symbol: vhdi_cbk_set_force_callback')
+ANF: vhdi_trigger_init_force('./simv: undefined symbol: vhdi_trigger_init_force')
+ANF: vhdi_ist_check_scsd_callback('./simv: undefined symbol: vhdi_ist_check_scsd_callback')
+ANF: vhdi_ist_add_scsd_callback('./simv: undefined symbol: vhdi_ist_add_scsd_callback')
+ANF: vhdi_ist_remove_scsd_callback('./simv: undefined symbol: vhdi_ist_remove_scsd_callback')
+ANF: vhdi_ist_get_scsd_user_data('./simv: undefined symbol: vhdi_ist_get_scsd_user_data')
+ANF: vhdi_add_time_change_callback('./simv: undefined symbol: vhdi_add_time_change_callback')
+ANF: vhdi_get_real_value_by_value_addr('./simv: undefined symbol: vhdi_get_real_value_by_value_addr')
+ANF: vhdi_get_64_value_by_value_addr('./simv: undefined symbol: vhdi_get_64_value_by_value_addr')
+ANF: vhdi_xprop_inst_is_promoted('./simv: undefined symbol: vhdi_xprop_inst_is_promoted')
+ANF: vdi_ist_convert_by_vhdi('./simv: undefined symbol: vdi_ist_convert_by_vhdi')
+ANF: vhdi_ist_get_module_id('./simv: undefined symbol: vhdi_ist_get_module_id')
+ANF: vhdi_refine_foreign_scope_type('./simv: undefined symbol: vhdi_refine_foreign_scope_type')
+ANF: vhdi_flush_callback('./simv: undefined symbol: vhdi_flush_callback')
+ANF: vhdi_set_orig_name('./simv: undefined symbol: vhdi_set_orig_name')
+ANF: vhdi_set_dump_pt('./simv: undefined symbol: vhdi_set_dump_pt')
+ANF: vhdi_get_fsdb_option('./simv: undefined symbol: vhdi_get_fsdb_option')
+ANF: vhdi_fgp_get_mode('./simv: undefined symbol: vhdi_fgp_get_mode')
+ANF: vhdi_node_register_composite_var('./simv: undefined symbol: vhdi_node_register_composite_var')
+ANF: vhdi_node_analysis('./simv: undefined symbol: vhdi_node_analysis')
+ANF: vhdi_node_id('./simv: undefined symbol: vhdi_node_id')
+ANF: vhdi_node_ist_check_scsd_callback('./simv: undefined symbol: vhdi_node_ist_check_scsd_callback')
+ANF: vhdi_node_ist_add_scsd_callback('./simv: undefined symbol: vhdi_node_ist_add_scsd_callback')
+ANF: vhdi_node_ist_get_value_addr('./simv: undefined symbol: vhdi_node_ist_get_value_addr')
+VCS compile option:
+ option[0]: ./simv
+ option[1]: +UVM_VERBOSITY=UVM_HIGH
+ option[2]: +UVM_TESTNAME=my_test_type_da3
+ option[3]: +fsdb=1
+ option[4]: +SEQ_NUM=1
+ option[5]: -l
+ option[6]: vcs_run.log
+ option[7]: +LOADMEM=1
+ option[8]: +ntb_random_seed_automatic
+ option[9]: /nas/usr/synopsys/vcs-mx/O-2018.09-SP2/linux64/bin/vcs1
+ option[10]: -Mcc=gcc
+ option[11]: -Mcplusplus=g++
+ option[12]: -Masflags=
+ option[13]: -Mcfl= -pipe -DVCS -DUVM_DPI_DO_TYPE_CHECK -fPIC -DVCS -O -I/nas/usr/synopsys/vcs-mx/O-2018.09-SP2/include 
+ option[14]: -Mxcflags= -pipe -DVCS -DUVM_DPI_DO_TYPE_CHECK -fPIC -I/nas/usr/synopsys/vcs-mx/O-2018.09-SP2/include
+ option[15]: -Mldflags= -rdynamic 
+ option[16]: -Mout=simv
+ option[17]: -Mamsrun=
+ option[18]: -Mvcsaceobjs=
+ option[19]: -Mobjects=/nas/usr/synopsys/vera_D-2009.12-6/vera_vD-2009.12-6_amd64/lib/vera_user.o /nas/usr/synopsys/vcs-mx/O-2018.09-SP2/linux64/lib/libvirsim.so /nas/usr/synopsys/vcs-mx/O-2018.09-SP2/linux64/lib/libcmsg.so /nas/usr/synopsys/vcs-mx/O-2018.09-SP2/linux64/lib/liberrorinf.so /nas/usr/synopsys/vcs-mx/O-2018.09-SP2/linux64/lib/libsnpsmalloc.so /nas/usr/synopsys/vcs-mx/O-2018.09-SP2/linux64/lib/libvfs.so /nas/usr/novas/Novas/share/PLI/vcs72/LINUX64/pli.a /nas/usr/synopsys/vera_D-2009.12-6/vera_vD-2009.12-6_amd64/lib/vlog/libVeraVcs.a -lnsl 
+ option[20]: -Mexternalobj=
+ option[21]: -Msaverestoreobj=/nas/usr/synopsys/vcs-mx/O-2018.09-SP2/linux64/lib/vcs_save_restore_new.o
+ option[22]: -Mcrt0=
+ option[23]: -Mcrtn=
+ option[24]: -Mcsrc=/nas/usr/synopsys/vcs-mx/O-2018.09-SP2/etc/uvm-1.1/dpi/uvm_dpi.cc 
+ option[25]: -Msyslibs=/nas/usr/synopsys/verdi/Verdi_O-2018.09-SP2/share/PLI/VCS/LINUX64/pli.a -ldl -rdynamic -ldl -lm 
+ option[26]: -l
+ option[27]: ./vcs_compile.log
+ option[28]: +define+UVM_VCS_RECORD
+ option[29]: +incdir+/nas/usr/synopsys/vcs-mx/O-2018.09-SP2/etc/uvm-1.1/vcs
+ option[30]: /nas/usr/synopsys/vcs-mx/O-2018.09-SP2/etc/uvm-1.1/uvm_pkg.sv
+ option[31]: /nas/usr/synopsys/vcs-mx/O-2018.09-SP2/etc/uvm-1.1/vcs/uvm_custom_install_vcs_recorder.sv
+ option[32]: -timescale=1ns/1ns
+ option[33]: +acc
+ option[34]: -debug_access+all+bc
+ option[35]: +vpi
+ option[36]: +vcsd
+ option[37]: +memcbk
+ option[38]: +itf+/nas/usr/synopsys/vcs-mx/O-2018.09-SP2/linux64/lib/vcsdp.tab
+ option[39]: -debug_region+cell
+ option[40]: -fsdb
+ option[41]: -P
+ option[42]: /nas/usr/synopsys/verdi/Verdi_O-2018.09-SP2/share/PLI/VCS/LINUX64/verdi.tab
+ option[43]: +plusarg_save
+ option[44]: +ntb_random_seed_automatic
+ option[45]: -ntb_opts
+ option[46]: uvm-1.1
+ option[47]: +incdir+/nas/usr/synopsys/vcs-mx/O-2018.09-SP2/etc/uvm-1.1/
+ option[48]: -full64
+ option[49]: +lint=TFIPC-L
+ option[50]: -kdb
+ option[51]: -Xufe=2steps
+ option[52]: +notimingcheck
+ option[53]: +nospecify
+ option[54]: +define+functional
+ option[55]: -P
+ option[56]: /nas/usr/novas/Novas/share/PLI/vcs72/LINUX64/debussy.tab
+ option[57]: +define+SIM_SPEEDUP
+ option[58]: -picarchive
+ option[59]: -debug_acc+fsdb
+ option[60]: -sverilog
+ option[61]: +vpi
+ option[62]: -ova_vera
+ option[63]: -P
+ option[64]: /nas/usr/synopsys/vera_D-2009.12-6/vera_vD-2009.12-6_amd64/lib/vlog/vera_info.tab
+ option[65]: -gen_obj
+ option[66]: +incdir+.
+ option[67]: +incdir+../env
+ option[68]: +incdir+../test
+ option[69]: -f
+ option[70]: ./filelist/tb.list
+ option[71]: +incdir+../sv/
+ option[72]: +define+UVM_DIRECTC_OPTS
+ option[73]: -load
+ option[74]: /nas/usr/synopsys/verdi/Verdi_O-2018.09-SP2/share/PLI/VCS/LINUX64/libnovas.so:FSDBDumpCmd
+ option[75]: timescale=1ns/1ns
+ option[76]: +ntb_random_seed_automatic
+Chronologic Simulation VCS Release O-2018.09-SP2_Full64
+Linux 2.6.32-504.el6.x86_64 #1 SMP Tue Sep 16 01:56:35 EDT 2014 x86_64
+CPU cores: 12
+Limit information:
+======================================
+cputime		unlimited
+filesize		unlimited
+datasize		unlimited
+stacksize		8249 kbytes
+coredumpsize		0 kbytes
+memoryuse		unlimited
+vmemoryuse		unlimited
+descriptors		4096
+memorylocked		64 kbytes
+maxproc		1024
+======================================
+(Special)Runtime environment variables:
+
+Runtime environment variables:
+QTDIR=/usr/lib64/qt-3.3
+MODULEPATH=/usr/share/Modules/modulefiles:/etc/modulefiles
+MEM_ra1shd=/nas/soc_ip/smic_130/library/mem/aci/ra1shd
+GTK_RC_FILES=/etc/gtk/gtkrc:/nas/home/yantl/.gtkrc::/nas/home/yantl/.kde/share/config/gtkrc
+XAUTHORITY=/nas/home/yantl/.Xauthority
+XMODIFIERS=@im=none
+SHELL=/bin/csh
+_=/usr/bin/kdeinit4
+HISTCONTROL=ignoredups
+XDG_DATA_DIRS=/usr/share/kde-settings/kde-profile/default/share:/usr/local/share:/usr/share
+MEM_rf2shd=/nas/soc_ip/smic_130/library/mem/aci/rf2shd
+DBUS_SESSION_BUS_ADDRESS=unix:abstract=/tmp/dbus-6j8JzjZUxd,guid=d59575f342009a8bbd86e1a80000dfdf
+MACHTYPE=x86_64
+QT_PLUGIN_PATH=/nas/home/yantl/.kde/lib64/kde4/plugins/:/usr/lib64/kde4/plugins/
+LESSOPEN=||/usr/bin/lesspipe.sh %s
+SSH_CONNECTION=10.6.111.140 56466 10.2.173.35 22
+PATH=/nas/soc_ip/smic_130/library/mem/aci/ra1shd/bin:/nas/soc_ip/smic_130/library/mem/aci/ra2shd/bin:/nas/soc_ip/smic_130/library/mem/aci/rodshd/bin:/nas/soc_ip/smic_130/library/mem/aci/rf1shd/bin:/nas/soc_ip/smic_130/library/mem/aci/rf2shd/bin:/nas/usr/synopsys/fm_vI-2013.12-SP5/bin:/nas/usr/synopsys/pts/O-2018.06-SP5/bin:/nas/usr/synopsys/lc/O-2018.06-SP1/bin:/nas/usr/synopsys/syn/O-2018.06-SP5/bin:/nas/usr/novas/nLint200607/bin:/nas/usr/xilinx/ise_14.7/14.7/ISE_DS/ISE/bin/lin64:/nas/usr/Matlab/R2015b/bin:/nas/usr/synopsys/spyglass/SpyGlass-L2016.06/SPYGLASS_HOME/bin:/nas/usr/synopsys/dw_iip_amba_2009.06a/bin:/nas/usr/synopsys/vera_D-2009.12-6/vera_vD-2009.12-6_amd64/bin:/nas/usr/synopsys/vcs-mx/O-2018.09-SP2/bin:/nas/usr/synopsys/verdi/Verdi_O-2018.09-SP2/bin:./:/usr/sbin:/sbin:/usr/lib64/qt-3.3/bin:/usr/local/bin:/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/sbin:/nas/home/yantl/bin:/nas/home/yantl/sve:/nas/usr/Adobe/Reader9/bin:/nas/usr/android-ndk-r9d:/nas/usr/android-ndk-r9d/toolchains/arm-linux-androideabi-4.8/prebuilt/linux-x86_64/bin
+LM_LICENSE_FILE=/nas/usr/xilinx/license12x.lic:27000@localhost
+DESIGNWARE_HOME=/nas/usr/synopsys/dw_iip_amba_2009.06a
+GPG_AGENT_INFO=/tmp/gpg-tmuHf6/S.gpg-agent:32423:1
+XCURSOR_THEME=default
+DRY_RUN=1
+SESSION_MANAGER=local/unix:@/tmp/.ICE-unix/32685,unix/unix:/tmp/.ICE-unix/32685
+ARM_PRE=arm-linux-androideabi
+NDK=/nas/usr/android-ndk-r9d
+VENDOR=unknown
+WINDOWID=31473073
+XDG_MENU_PREFIX=kde4-
+VERA_HOME=/nas/usr/synopsys/vera_D-2009.12-6/vera_vD-2009.12-6_amd64
+GTK2_RC_FILES=/etc/gtk-2.0/gtkrc:/nas/home/yantl/.gtkrc-2.0::/nas/home/yantl/.kde/share/config/gtkrc-2.0
+PROFILEHOME=/nas/home/yantl
+LS_COLORS=rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=01;05;37;41:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arj=01;31:*.taz=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lz=01;31:*.xz=01;31:*.bz2=01;31:*.tbz=01;31:*.tbz2=01;31:*.bz=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.rar=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.jpg=01;35:*.jpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.axv=01;35:*.anx=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=01;36:*.au=01;36:*.flac=01;36:*.mid=01;36:*.midi=01;36:*.mka=01;36:*.mp3=01;36:*.mpc=01;36:*.ogg=01;36:*.ra=01;36:*.wav=01;36:*.axa=01;36:*.oga=01;36:*.spx=01;36:*.xspf=01;36:
+SSH_AUTH_SOCK=/nas/home/yantl/.x2go/C-yantl-52-1693104388_stDKDE_dp32/ssh-agent.PID
+KDEDIRS=/usr
+DISPLAY=:52
+GTK_IM_MODULE=gtk-im-context-simple
+IMSETTINGS_INTEGRATE_DESKTOP=yes
+VCS_HOME=/nas/usr/synopsys/vcs-mx/O-2018.09-SP2
+PWD=/nas/home/yantl/UVM_Learning/lab_02/tb
+PRIMETIME=/nas/usr/synopsys/pts/O-2018.06-SP5
+ARM_INC=/nas/usr/android-ndk-r9d/platforms/android-8/arch-arm/usr/include/
+KDE_SESSION_VERSION=4
+VERDI_HOME=/nas/usr/synopsys/verdi/Verdi_O-2018.09-SP2
+G_BROKEN_FILENAMES=1
+HOME=/nas/home/yantl
+LD_LIBRARY_PATH=/usr/lib64/nx/X11/Xinerama:/usr/lib64/nx/X11
+MODULESHOME=/usr/share/Modules
+LOGNAME=yantl
+KDE_FULL_SESSION=true
+NLINT=/nas/usr/novas/nLint200607
+HOSTNAME=r730
+SSH_ASKPASS=/usr/libexec/openssh/gnome-ssh-askpass
+KONSOLE_DBUS_SESSION=/Sessions/4
+QT_IM_MODULE=xim
+OSTYPE=linux
+SHLVL=5
+QT_GRAPHICSSYSTEM=native
+DC=/nas/usr/synopsys/syn/O-2018.06-SP5
+ARM_LIB=/nas/usr/android-ndk-r9d/platforms/android-8/arch-arm/usr/lib/
+KDE_MULTIHEAD=false
+QTLIB=/usr/lib64/qt-3.3/lib
+ARM_LIBO=/nas/usr/android-ndk-r9d/toolchains/arm-linux-androideabi-4.8/prebuilt/linux-x86_64/lib/gcc/arm-linux-androideabi/4.8
+MEM_ra2shd=/nas/soc_ip/smic_130/library/mem/aci/ra2shd
+X2GO_AGENT_PID=31403
+BASH_FUNC_module()=() {  eval `/usr/bin/modulecmd bash $*`
+}
+PULSE_CLIENTCONFIG=/nas/home/yantl/.x2go/C-yantl-52-1693104388_stDKDE_dp32/.pulse-client.conf
+LC=/nas/usr/synopsys/lc/O-2018.06-SP1
+TB_PATH=/nas/home/yantl/test/tb
+FORMALITY=/nas/usr/synopsys/fm_vI-2013.12-SP5
+CVS_RSH=ssh
+IMSETTINGS_MODULE=none
+X2GO_SESSION=yantl-52-1693104388_stDKDE_dp32
+LANGUAGE=
+MAKEFLAGS=
+NOVAS_FSDB_ENV_SYNC_CONTROL=off
+MFLAGS=
+SSH_CLIENT=10.6.111.140 56466 22
+XILINX_HOME=/nas/usr/xilinx/ise_14.7/14.7/ISE_DS/ISE
+MAIL=/var/spool/mail/yantl
+LOADEDMODULES=
+SPYGLASS_HOME=/nas/usr/synopsys/spyglass/SpyGlass-L2016.06/SPYGLASS_HOME
+BROWSER=firefox
+KDE_SESSION_UID=10015
+MEM_rodshd=/nas/soc_ip/smic_130/library/mem/aci/rodshd
+COLORFGBG=15;0
+MATLAB_HOME=/nas/usr/Matlab/R2015b
+NOVAS_FSDB_ENV_NOVAS_LOCK=on
+ARM_TOOL=/nas/usr/android-ndk-r9d/toolchains/arm-linux-androideabi-4.8/prebuilt/linux-x86_64
+KDE_IS_PRELINKED=1
+USER=yantl
+DISABLE_IMSETTINGS=1
+HOSTTYPE=x86_64-linux
+HISTSIZE=1000
+GS_LIB=
+GROUP=asic
+KONSOLE_DBUS_SERVICE=:1.45
+QTINC=/usr/lib64/qt-3.3/include
+ARM_ROOT=/nas/usr/android-ndk-r9d
+NX_XINERAMA_CONF=/nas/home/yantl/.x2go/C-yantl-52-1693104388_stDKDE_dp32/xinerama.conf
+MEM_rf1shd=/nas/soc_ip/smic_130/library/mem/aci/rf1shd
+LANG=en_US.UTF-8
+TERM=xterm
+HOST=r730
+MAKELEVEL=1
+VCS_HEAP_EXEC=true
+VCS_PATHMAP_PRELOAD_DONE=1
+VCS_STACK_EXEC=true
+VCS_EXEC_DONE=1
+LC_ALL=C
+DVE=/nas/usr/synopsys/vcs-mx/O-2018.09-SP2/gui/dve
+SPECMAN_OUTPUT_TO_TTY=1
+Runtime command line arguments:
+argv[0]=./simv
+argv[1]=+UVM_VERBOSITY=UVM_HIGH
+argv[2]=+UVM_TESTNAME=my_test_type_da3
+argv[3]=+fsdb=1
+argv[4]=+SEQ_NUM=1
+argv[5]=-l
+argv[6]=vcs_run.log
+argv[7]=+LOADMEM=1
+argv[8]=+ntb_random_seed_automatic
+321 profile - 100
+          CPU/Mem usage: 0.090 sys,  0.510 user,  259.26M mem
+322 Wed Sep  6 18:43:12 2023
+323 pliAppInit
+324 FSDB_GATE is set.
+325 FSDB_RTL is set.
+326 Enable Parallel Dumping.
+327 pliAppMiscSet: New Sim Round
+328 pliEntryInit
+329 LIBSSCORE=found /nas/usr/synopsys/verdi/Verdi_O-2018.09-SP2/share/PLI/lib/LINUXAMD64/libsscore_vcs201809.so through $NOVAS_HOME setting.
+330 FSDB Dumper for VCS, Release Verdi_O-2018.09-SP2, Linux x86_64/64bit, 02/21/2019
+331 (C) 1996 - 2019 by Synopsys, Inc.
+332 sps_call_fsdbDumpfile_main at 0 : /nas/home/yantl/UVM_Learning/lab_02/sv/test.sv(13)
+333 argv[0]: (../tb/tb_top.fsdb)
+334 *Verdi* FSDB: FSDB_ENV_NOVAS_LOCK environment variable is set.
+335 *Verdi* FSDB: Invoke Novas locking scheme instead.
+336 *Verdi* : Create FSDB file '../tb/tb_top.fsdb'
+337 compile option from '/nas/home/yantl/UVM_Learning/lab_02/tb/simv.daidir/vcs_rebuild'.
+338   "vcs '-sverilog' '-timescale=1ns/1ns' '+acc' '+vpi' '-debug_all' '-fsdb' '-CFLAGS' '-DVCS' '+plusarg_save' '+ntb_random_seed_automatic' '-ntb_opts' 'uvm-1.1' '-full64' '+lint=TFIPC-L' '-vera' '-kdb' '+notimingcheck' '+nospecify' '+define+functional' '-P' '/nas/usr/novas/Novas/share/PLI/vcs72/LINUX64/debussy.tab' '/nas/usr/novas/Novas/share/PLI/vcs72/LINUX64/pli.a' '+incdir+.' '+incdir+../env' '+incdir+../test' '-f' './filelist/tb.list' '+define+SIM_SPEEDUP' '-l' './vcs_compile.log' '+incdir+../sv/' 2>&1"
+339 End of simulation at 3400
+340 Wed Sep  6 18:43:12 2023
+341 Begin FSDB profile info:
+342 FSDB Writer : bc1(0) bcn(0) mtf/stf(0/0)
+FSDB Writer elapsed time : flush(0.009234) io wait(0.000000) theadpool wait(0.000000) target functin(0.000000)
+FSDB Writer cpu time : MT Compression : 0
+343 End FSDB profile info
+344 Parallel profile    -  Flush:2 Expand:0 ProduceWait:0 ConsumerWait:0 BlockUsed:0
+345                        ProduceTime:0.670095312 ConsumerTime:0.000000000 Buffer:64MB
+346 SimExit
+347 Sim process exit

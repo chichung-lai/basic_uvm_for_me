@@ -1,0 +1,10 @@
+Command: vcs -sverilog -timescale=1ns/1ns +acc +vpi -debug_access+all -fsdb -CFLAGS \
+-DVCS +plusarg_save +ntb_random_seed_automatic -ntb_opts uvm-1.1 -full64 +lint=TFIPC-L \
+-kdb +notimingcheck +nospecify +define+functional +incdir+. +incdir+../env +incdir+../test \
++define+SIM_SPEEDUP -l ./vcs_compile.log +incdir+../sv/
+
+Error-[NTMES] No TopModule/Entity supplied
+  No TopModule/Entity supplied on 'vcs' command line.
+  Usage: vcs [libname.]<Design Unit> [-o output] [other compile opts] or vcs 
+  -help
+

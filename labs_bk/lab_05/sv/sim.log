@@ -1,0 +1,165 @@
+Command: /home/ICer/Documents/basic_uvm/labs/lab_05/sv/./simv +UVM_TESTNAME=my_test +UVM_VERDI_TRACE=UVM_AWARE+RAL+HIER+COMPWAVE +UVM_TR_RECORD -l sim.log
+Chronologic VCS simulator copyright 1991-2018
+Contains Synopsys proprietary information.
+Compiler version O-2018.09-1_Full64; Runtime version O-2018.09-1_Full64;  Jul  7 16:48 2024
+----------------------------------------------------------------
+UVM-1.1d.Synopsys
+(C) 2007-2013 Mentor Graphics Corporation
+(C) 2007-2013 Cadence Design Systems, Inc.
+(C) 2006-2013 Synopsys, Inc.
+(C) 2011-2013 Cypress Semiconductor Corp.
+----------------------------------------------------------------
+
+  ***********       IMPORTANT RELEASE NOTES         ************
+
+  You are using a version of the UVM library that has been compiled
+  with `UVM_NO_DEPRECATED undefined.
+  See http://www.eda.org/svdb/view.php?id=3313 for more details.
+
+  You are using a version of the UVM library that has been compiled
+  with `UVM_OBJECT_MUST_HAVE_CONSTRUCTOR undefined.
+  See http://www.eda.org/svdb/view.php?id=3770 for more details.
+
+      (Specify +UVM_NO_RELNOTES to turn off this notice)
+
+*Verdi* Enable Verdi Message Catcher.
+*Verdi* Loading libsscore_vcs201809.so
+FSDB Dumper for VCS, Release Verdi_O-2018.09-SP2, Linux x86_64/64bit, 02/21/2019
+(C) 1996 - 2019 by Synopsys, Inc.
+*Verdi* : Create FSDB file 'novas.fsdb'
+*Verdi* : Begin dumping the Class Object by file (/home/synopsys/vcs-mx/O-2018.09-1/etc/uvm-1.1/verdi/component.config).
+*Verdi* : End of class object dumping.
+UVM_INFO /home/synopsys/vcs-mx/O-2018.09-1/etc/uvm/verdi/uvm_custom_install_verdi_recorder.sv(259) @ 0: reporter [VERDI_TR_AUTO] +UVM_TR_RECORD implicitly enables recording_details to UVM_FULL for all components. For explicit control use +UVM_DISABLE_AUTO_COMPONENT and set recording_detail on components accordingly
+*Verdi* Enable Verdi Factory Dumping.
+UVM_INFO @ 0: reporter [RNTST] Running test my_test...
+*Verdi* : Create FSDB file 'tb_top.fsdb'
+*Verdi* : Begin traversing the scopes, layer (0).
+*Verdi* : End of traversing.
+UVM_INFO my_transaction.sv(332) @ 0: uvm_test_top.m_env [COVERAGE_ENABLE] The function coverage is enabled for this testcase
+UVM_INFO my_transaction.sv(336) @ 0: uvm_test_top.m_env [CHECK_ENABLE] The check function is enabled for this testcase
+pad cycles = 10
+UVM_INFO @ 0: reporter [UVMTOP] UVM testbench topology:
+DHIER_COMP: (uvm_dhier_component@459) @459 
+uvm_test_top: (my_test@476) {
+  m_env: (my_env@485) {
+    m_agent: (master_agent@505) {
+      m_driv: (my_driver@639) {
+        rsp_port: (uvm_analysis_port@654) {
+          recording_detail: UVM_FULL 
+        }
+        seq_item_port: (uvm_seq_item_pull_port@646) {
+          recording_detail: UVM_FULL 
+        }
+        recording_detail: UVM_FULL 
+      }
+      m_moni: (my_monitor@662) {
+        recording_detail: UVM_FULL 
+      }
+      m_seqr: (uvm_sequencer@530) {
+        rsp_export: (uvm_analysis_export@537) {
+          recording_detail: UVM_FULL 
+        }
+        seq_item_export: (uvm_seq_item_pull_imp@631) {
+          recording_detail: UVM_FULL 
+        }
+        recording_detail: UVM_FULL 
+        arbitration_queue: - 
+        lock_queue: - 
+        num_last_reqs: 'd1 
+        num_last_rsps: 'd1 
+      }
+      recording_detail: UVM_FULL 
+    }
+    recording_detail: UVM_FULL 
+  }
+  recording_detail: UVM_FULL 
+}
+
+*Verdi* Enable Verdi Recorder.
+Info: Verdi UVM 1.1d Hooks File 07/11/2013 
+UVM_INFO my_transaction.sv(139) @ 290: uvm_test_top.m_env.m_agent.m_driv [DRV_CONFIGURE_PHASE] Now driver config the DUT...
+UVM_INFO my_transaction.sv(149) @ 290: uvm_test_top.m_env.m_agent.m_driv [DRV_RUN_PHASE] --------------------------------------------------------------------------------------------------
+Name                           Type            Size  Value                                        
+--------------------------------------------------------------------------------------------------
+req                            my_transaction  -     @690                                         
+  sa                           integral        4     'he                                          
+  da                           integral        4     'h8                                          
+  payload                      da(integral)    3     -                                            
+    [0]                        integral        8     'h6d                                         
+    [1]                        integral        8     'h79                                         
+    [2]                        integral        8     'h57                                         
+  begin_time                   time            64    290                                          
+  depth                        int             32    'd2                                          
+  parent sequence (name)       string          11    my_sequence                                  
+  parent sequence (full name)  string          45    uvm_test_top.m_env.m_agent.m_seqr.my_sequence
+  sequencer                    string          33    uvm_test_top.m_env.m_agent.m_seqr            
+--------------------------------------------------------------------------------------------------
+
+UVM_INFO my_transaction.sv(149) @ 1050: uvm_test_top.m_env.m_agent.m_driv [DRV_RUN_PHASE] --------------------------------------------------------------------------------------------------
+Name                           Type            Size  Value                                        
+--------------------------------------------------------------------------------------------------
+req                            my_transaction  -     @719                                         
+  sa                           integral        4     'hc                                          
+  da                           integral        4     'h5                                          
+  payload                      da(integral)    2     -                                            
+    [0]                        integral        8     'h70                                         
+    [1]                        integral        8     'h76                                         
+  begin_time                   time            64    1050                                         
+  depth                        int             32    'd2                                          
+  parent sequence (name)       string          11    my_sequence                                  
+  parent sequence (full name)  string          45    uvm_test_top.m_env.m_agent.m_seqr.my_sequence
+  sequencer                    string          33    uvm_test_top.m_env.m_agent.m_seqr            
+--------------------------------------------------------------------------------------------------
+
+UVM_INFO my_transaction.sv(149) @ 1650: uvm_test_top.m_env.m_agent.m_driv [DRV_RUN_PHASE] --------------------------------------------------------------------------------------------------
+Name                           Type            Size  Value                                        
+--------------------------------------------------------------------------------------------------
+req                            my_transaction  -     @723                                         
+  sa                           integral        4     'h9                                          
+  da                           integral        4     'h4                                          
+  payload                      da(integral)    4     -                                            
+    [0]                        integral        8     'h38                                         
+    [1]                        integral        8     'hf9                                         
+    [2]                        integral        8     'h69                                         
+    [3]                        integral        8     'hbc                                         
+  begin_time                   time            64    1650                                         
+  depth                        int             32    'd2                                          
+  parent sequence (name)       string          11    my_sequence                                  
+  parent sequence (full name)  string          45    uvm_test_top.m_env.m_agent.m_seqr.my_sequence
+  sequencer                    string          33    uvm_test_top.m_env.m_agent.m_seqr            
+--------------------------------------------------------------------------------------------------
+
+UVM_INFO /home/synopsys/vcs-mx/O-2018.09-1/etc/uvm/base/uvm_objection.svh(1273) @ 2670: reporter [TEST_DONE] 'run' phase is ready to proceed to the 'extract' phase
+
+--- UVM Report catcher Summary ---
+
+
+Number of demoted UVM_FATAL reports  :    0
+Number of demoted UVM_ERROR reports  :    0
+Number of demoted UVM_WARNING reports:    0
+Number of caught UVM_FATAL reports   :    0
+Number of caught UVM_ERROR reports   :    0
+Number of caught UVM_WARNING reports :    0
+
+--- UVM Report Summary ---
+
+** Report counts by severity
+UVM_INFO :   10
+UVM_WARNING :    0
+UVM_ERROR :    0
+UVM_FATAL :    0
+** Report counts by id
+[CHECK_ENABLE]     1
+[COVERAGE_ENABLE]     1
+[DRV_CONFIGURE_PHASE]     1
+[DRV_RUN_PHASE]     3
+[RNTST]     1
+[TEST_DONE]     1
+[UVMTOP]     1
+[VERDI_TR_AUTO]     1
+$finish called from file "/home/synopsys/vcs-mx/O-2018.09-1/etc/uvm/base/uvm_root.svh", line 439.
+$finish at simulation time                 2670
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 2670 ns
+CPU Time:      1.340 seconds;       Data structure size:   0.5Mb
+Sun Jul  7 16:48:15 2024

@@ -1,0 +1,262 @@
+Command: /home/ICer/Documents/basic_uvm/labs/lab_01/sv/./simv +UVM_TESTNAME=my_test -gui=verdi +UVM_VERDI_TRACE=UVM_AWARE+RAL+HIER+COMPWAVE +UVM_TR_RECORD -l sim.log
+./simv +UVM_TESTNAME=my_test +UVM_VERDI_TRACE=UVM_AWARE+RAL+HIER+COMPWAVE +UVM_TR_RECORD -a sim.log -sml=verdi +fsdb+gate=off -ucli2Proc -ucli
+debImport "-i" "-simflow" "-dbdir" "./simv.daidir"
+*Verdi* Loading libsscore_vcs201809.so
+
+FSDB Dumper for VCS, Release Verdi_O-2018.09-SP2, Linux x86_64/64bit, 02/21/2019
+(C) 1996 - 2019 by Synopsys, Inc.
+*Verdi* : Create FSDB file '/home/ICer/Documents/basic_uvm/labs/lab_01/sv/inter.fsdb'
+
+*Verdi* : Flush all FSDB Files at 0 ns.
+
+srcTBInvokeSim
+Chronologic VCS simulator copyright 1991-2018
+Contains Synopsys proprietary information.
+Compiler version O-2018.09-1_Full64; Runtime version O-2018.09-1_Full64;  Jun 21 00:17 2024
+----------------------------------------------------------------
+UVM-1.1d.Synopsys
+(C) 2007-2013 Mentor Graphics Corporation
+(C) 2007-2013 Cadence Design Systems, Inc.
+(C) 2006-2013 Synopsys, Inc.
+(C) 2011-2013 Cypress Semiconductor Corp.
+----------------------------------------------------------------
+  ***********       IMPORTANT RELEASE NOTES         ************
+  You are using a version of the UVM library that has been compiled
+  with `UVM_NO_DEPRECATED undefined.
+  See http://www.eda.org/svdb/view.php?id=3313 for more details.
+  You are using a version of the UVM library that has been compiled
+  with `UVM_OBJECT_MUST_HAVE_CONSTRUCTOR undefined.
+  See http://www.eda.org/svdb/view.php?id=3770 for more details.
+      (Specify +UVM_NO_RELNOTES to turn off this notice)
+Verdi>run
+UVM_INFO /home/synopsys/vcs-mx/O-2018.09-1/etc/uvm/base/uvm_root.svh(379) @ 0: reporter [NO_DPI_TSTNAME] UVM_NO_DPI defined--getting UVM_TESTNAME directly, without DPI
+UVM_INFO @ 0: reporter [RNTST] Running test my_test...
+UVM_INFO @ 0: reporter [UVMTOP] UVM testbench topology:
+uvm_test_top: (my_test@455) {
+  m_env: (my_env@463) {
+    m_agent: (master_agent@475) {
+      m_driv: (my_driver@610) {
+        rsp_port: (uvm_analysis_port@627) @627 
+        seq_item_port: (uvm_seq_item_pull_port@618) @618 
+      }
+      m_moni: (my_monitor@636) @636 
+      m_seqr: (uvm_sequencer@487) {
+        rsp_export: (uvm_analysis_export@495) @495 
+        seq_item_export: (uvm_seq_item_pull_imp@601) @601 
+        arbitration_queue: - 
+        lock_queue: - 
+        num_last_reqs: 'd1 
+        num_last_rsps: 'd1 
+      }
+    }
+  }
+}
+
+UVM_INFO my_transaction.sv(111) @ 0: uvm_test_top.m_env.m_agent.m_moni [MON_RUN_PHASE] Monitor run!
+UVM_INFO my_transaction.sv(83) @ 0: uvm_test_top.m_env.m_agent.m_driv [DRV_RUN_PHASE] --------------------------------------------------------------------------------------------------
+Name                           Type            Size  Value                                        
+--------------------------------------------------------------------------------------------------
+req                            my_transaction  -     @656                                         
+  sa                           integral        4     'he                                          
+  sa                           integral        4     'he                                          
+  payload                      da(integral)    3     -                                            
+    [0]                        integral        8     'h6d                                         
+    [1]                        integral        8     'h79                                         
+    [2]                        integral        8     'h57                                         
+  begin_time                   time            64    0                                            
+  depth                        int             32    'd2                                          
+  parent sequence (name)       string          11    my_sequence                                  
+  parent sequence (full name)  string          45    uvm_test_top.m_env.m_agent.m_seqr.my_sequence
+  sequencer                    string          33    uvm_test_top.m_env.m_agent.m_seqr            
+--------------------------------------------------------------------------------------------------
+
+UVM_INFO my_transaction.sv(111) @ 100: uvm_test_top.m_env.m_agent.m_moni [MON_RUN_PHASE] Monitor run!
+UVM_INFO my_transaction.sv(83) @ 100: uvm_test_top.m_env.m_agent.m_driv [DRV_RUN_PHASE] --------------------------------------------------------------------------------------------------
+Name                           Type            Size  Value                                        
+--------------------------------------------------------------------------------------------------
+req                            my_transaction  -     @685                                         
+  sa                           integral        4     'hc                                          
+  sa                           integral        4     'hc                                          
+  payload                      da(integral)    2     -                                            
+    [0]                        integral        8     'h70                                         
+    [1]                        integral        8     'h76                                         
+  begin_time                   time            64    100                                          
+  depth                        int             32    'd2                                          
+  parent sequence (name)       string          11    my_sequence                                  
+  parent sequence (full name)  string          45    uvm_test_top.m_env.m_agent.m_seqr.my_sequence
+  sequencer                    string          33    uvm_test_top.m_env.m_agent.m_seqr            
+--------------------------------------------------------------------------------------------------
+
+UVM_INFO my_transaction.sv(111) @ 200: uvm_test_top.m_env.m_agent.m_moni [MON_RUN_PHASE] Monitor run!
+UVM_INFO my_transaction.sv(83) @ 200: uvm_test_top.m_env.m_agent.m_driv [DRV_RUN_PHASE] --------------------------------------------------------------------------------------------------
+Name                           Type            Size  Value                                        
+--------------------------------------------------------------------------------------------------
+req                            my_transaction  -     @689                                         
+  sa                           integral        4     'h9                                          
+  sa                           integral        4     'h9                                          
+  payload                      da(integral)    4     -                                            
+    [0]                        integral        8     'h38                                         
+    [1]                        integral        8     'hf9                                         
+    [2]                        integral        8     'h69                                         
+    [3]                        integral        8     'hbc                                         
+  begin_time                   time            64    200                                          
+  depth                        int             32    'd2                                          
+  parent sequence (name)       string          11    my_sequence                                  
+  parent sequence (full name)  string          45    uvm_test_top.m_env.m_agent.m_seqr.my_sequence
+  sequencer                    string          33    uvm_test_top.m_env.m_agent.m_seqr            
+--------------------------------------------------------------------------------------------------
+
+UVM_INFO my_transaction.sv(111) @ 300: uvm_test_top.m_env.m_agent.m_moni [MON_RUN_PHASE] Monitor run!
+UVM_INFO my_transaction.sv(83) @ 300: uvm_test_top.m_env.m_agent.m_driv [DRV_RUN_PHASE] --------------------------------------------------------------------------------------------------
+Name                           Type            Size  Value                                        
+--------------------------------------------------------------------------------------------------
+req                            my_transaction  -     @693                                         
+  sa                           integral        4     'hd                                          
+  sa                           integral        4     'hd                                          
+  payload                      da(integral)    3     -                                            
+    [0]                        integral        8     'hfa                                         
+    [1]                        integral        8     'h87                                         
+    [2]                        integral        8     'h48                                         
+  begin_time                   time            64    300                                          
+  depth                        int             32    'd2                                          
+  parent sequence (name)       string          11    my_sequence                                  
+  parent sequence (full name)  string          45    uvm_test_top.m_env.m_agent.m_seqr.my_sequence
+  sequencer                    string          33    uvm_test_top.m_env.m_agent.m_seqr            
+--------------------------------------------------------------------------------------------------
+
+UVM_INFO my_transaction.sv(111) @ 400: uvm_test_top.m_env.m_agent.m_moni [MON_RUN_PHASE] Monitor run!
+UVM_INFO my_transaction.sv(83) @ 400: uvm_test_top.m_env.m_agent.m_driv [DRV_RUN_PHASE] --------------------------------------------------------------------------------------------------
+Name                           Type            Size  Value                                        
+--------------------------------------------------------------------------------------------------
+req                            my_transaction  -     @697                                         
+  sa                           integral        4     'hd                                          
+  sa                           integral        4     'hd                                          
+  payload                      da(integral)    3     -                                            
+    [0]                        integral        8     'h42                                         
+    [1]                        integral        8     'h87                                         
+    [2]                        integral        8     'h48                                         
+  begin_time                   time            64    400                                          
+  depth                        int             32    'd2                                          
+  parent sequence (name)       string          11    my_sequence                                  
+  parent sequence (full name)  string          45    uvm_test_top.m_env.m_agent.m_seqr.my_sequence
+  sequencer                    string          33    uvm_test_top.m_env.m_agent.m_seqr            
+--------------------------------------------------------------------------------------------------
+
+UVM_INFO my_transaction.sv(111) @ 500: uvm_test_top.m_env.m_agent.m_moni [MON_RUN_PHASE] Monitor run!
+UVM_INFO my_transaction.sv(83) @ 500: uvm_test_top.m_env.m_agent.m_driv [DRV_RUN_PHASE] --------------------------------------------------------------------------------------------------
+Name                           Type            Size  Value                                        
+--------------------------------------------------------------------------------------------------
+req                            my_transaction  -     @701                                         
+  sa                           integral        4     'ha                                          
+  sa                           integral        4     'ha                                          
+  payload                      da(integral)    4     -                                            
+    [0]                        integral        8     'he3                                         
+    [1]                        integral        8     'h6b                                         
+    [2]                        integral        8     'hf7                                         
+    [3]                        integral        8     'hf7                                         
+  begin_time                   time            64    500                                          
+  depth                        int             32    'd2                                          
+  parent sequence (name)       string          11    my_sequence                                  
+  parent sequence (full name)  string          45    uvm_test_top.m_env.m_agent.m_seqr.my_sequence
+  sequencer                    string          33    uvm_test_top.m_env.m_agent.m_seqr            
+--------------------------------------------------------------------------------------------------
+
+UVM_INFO my_transaction.sv(111) @ 600: uvm_test_top.m_env.m_agent.m_moni [MON_RUN_PHASE] Monitor run!
+UVM_INFO my_transaction.sv(83) @ 600: uvm_test_top.m_env.m_agent.m_driv [DRV_RUN_PHASE] --------------------------------------------------------------------------------------------------
+Name                           Type            Size  Value                                        
+--------------------------------------------------------------------------------------------------
+req                            my_transaction  -     @705                                         
+  sa                           integral        4     'h8                                          
+  sa                           integral        4     'h8                                          
+  payload                      da(integral)    3     -                                            
+    [0]                        integral        8     'h44                                         
+    [1]                        integral        8     'hb5                                         
+    [2]                        integral        8     'h20                                         
+  begin_time                   time            64    600                                          
+  depth                        int             32    'd2                                          
+  parent sequence (name)       string          11    my_sequence                                  
+  parent sequence (full name)  string          45    uvm_test_top.m_env.m_agent.m_seqr.my_sequence
+  sequencer                    string          33    uvm_test_top.m_env.m_agent.m_seqr            
+--------------------------------------------------------------------------------------------------
+
+UVM_INFO my_transaction.sv(111) @ 700: uvm_test_top.m_env.m_agent.m_moni [MON_RUN_PHASE] Monitor run!
+UVM_INFO my_transaction.sv(83) @ 700: uvm_test_top.m_env.m_agent.m_driv [DRV_RUN_PHASE] --------------------------------------------------------------------------------------------------
+Name                           Type            Size  Value                                        
+--------------------------------------------------------------------------------------------------
+req                            my_transaction  -     @709                                         
+  sa                           integral        4     'h0                                          
+  sa                           integral        4     'h0                                          
+  payload                      da(integral)    3     -                                            
+    [0]                        integral        8     'hc7                                         
+    [1]                        integral        8     'hd1                                         
+    [2]                        integral        8     'h7a                                         
+  begin_time                   time            64    700                                          
+  depth                        int             32    'd2                                          
+  parent sequence (name)       string          11    my_sequence                                  
+  parent sequence (full name)  string          45    uvm_test_top.m_env.m_agent.m_seqr.my_sequence
+  sequencer                    string          33    uvm_test_top.m_env.m_agent.m_seqr            
+--------------------------------------------------------------------------------------------------
+
+UVM_INFO my_transaction.sv(111) @ 800: uvm_test_top.m_env.m_agent.m_moni [MON_RUN_PHASE] Monitor run!
+UVM_INFO my_transaction.sv(83) @ 800: uvm_test_top.m_env.m_agent.m_driv [DRV_RUN_PHASE] --------------------------------------------------------------------------------------------------
+Name                           Type            Size  Value                                        
+--------------------------------------------------------------------------------------------------
+req                            my_transaction  -     @713                                         
+  sa                           integral        4     'ha                                          
+  sa                           integral        4     'ha                                          
+  payload                      da(integral)    3     -                                            
+    [0]                        integral        8     'haa                                         
+    [1]                        integral        8     'ha9                                         
+    [2]                        integral        8     'hcf                                         
+  begin_time                   time            64    800                                          
+  depth                        int             32    'd2                                          
+  parent sequence (name)       string          11    my_sequence                                  
+  parent sequence (full name)  string          45    uvm_test_top.m_env.m_agent.m_seqr.my_sequence
+  sequencer                    string          33    uvm_test_top.m_env.m_agent.m_seqr            
+--------------------------------------------------------------------------------------------------
+
+UVM_INFO my_transaction.sv(111) @ 900: uvm_test_top.m_env.m_agent.m_moni [MON_RUN_PHASE] Monitor run!
+UVM_INFO my_transaction.sv(83) @ 900: uvm_test_top.m_env.m_agent.m_driv [DRV_RUN_PHASE] --------------------------------------------------------------------------------------------------
+Name                           Type            Size  Value                                        
+--------------------------------------------------------------------------------------------------
+req                            my_transaction  -     @717                                         
+  sa                           integral        4     'ha                                          
+  sa                           integral        4     'ha                                          
+  payload                      da(integral)    3     -                                            
+    [0]                        integral        8     'he5                                         
+    [1]                        integral        8     'h91                                         
+    [2]                        integral        8     'hfe                                         
+  begin_time                   time            64    900                                          
+  depth                        int             32    'd2                                          
+  parent sequence (name)       string          11    my_sequence                                  
+  parent sequence (full name)  string          45    uvm_test_top.m_env.m_agent.m_seqr.my_sequence
+  sequencer                    string          33    uvm_test_top.m_env.m_agent.m_seqr            
+--------------------------------------------------------------------------------------------------
+
+UVM_INFO my_transaction.sv(111) @ 1000: uvm_test_top.m_env.m_agent.m_moni [MON_RUN_PHASE] Monitor run!
+UVM_INFO my_transaction.sv(111) @ 1100: uvm_test_top.m_env.m_agent.m_moni [MON_RUN_PHASE] Monitor run!
+UVM_INFO /home/synopsys/vcs-mx/O-2018.09-1/etc/uvm/base/uvm_objection.svh(1273) @ 1100: reporter [TEST_DONE] 'run' phase is ready to proceed to the 'extract' phase
+
+--- UVM Report Summary ---
+
+** Report counts by severity
+UVM_INFO :   26
+UVM_WARNING :    0
+UVM_ERROR :    0
+UVM_FATAL :    0
+** Report counts by id
+[DRV_RUN_PHASE]    10
+[MON_RUN_PHASE]    12
+[NO_DPI_TSTNAME]     1
+[RNTST]     1
+[TEST_DONE]     1
+[UVMTOP]     1
+$finish called from file "/home/synopsys/vcs-mx/O-2018.09-1/etc/uvm/base/uvm_root.svh", line 439.
+$finish at simulation time                 1100
+Simulation complete, time is 1100 ns.
+uvm_root.svh, 436 :   report_summarize();
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 1100 ns
+CPU Time:      0.790 seconds;       Data structure size:   0.4Mb
+Fri Jun 21 00:18:22 2024
+debExit

@@ -1,0 +1,193 @@
+Command: /nas/home/yantl/UVM_Learning/lab_02/tb/./simv +UVM_VERBOSITY=UVM_HIGH +UVM_TESTNAME=my_test_type_da3 +fsdb=1 +SEQ_NUM=1 -l vcs_run.log +LOADMEM=1 +ntb_random_seed_automatic
+Chronologic VCS simulator copyright 1991-2018
+Contains Synopsys proprietary information.
+Compiler version O-2018.09-SP2_Full64; Runtime version O-2018.09-SP2_Full64;  Sep  6 18:43 2023
+NOTE: automatic random seed used: 3921821872
+----------------------------------------------------------------
+UVM-1.1d.Synopsys
+(C) 2007-2013 Mentor Graphics Corporation
+(C) 2007-2013 Cadence Design Systems, Inc.
+(C) 2006-2013 Synopsys, Inc.
+(C) 2011-2013 Cypress Semiconductor Corp.
+----------------------------------------------------------------
+
+  ***********       IMPORTANT RELEASE NOTES         ************
+
+  You are using a version of the UVM library that has been compiled
+  with `UVM_NO_DEPRECATED undefined.
+  See http://www.eda.org/svdb/view.php?id=3313 for more details.
+
+  You are using a version of the UVM library that has been compiled
+  with `UVM_OBJECT_MUST_HAVE_CONSTRUCTOR undefined.
+  See http://www.eda.org/svdb/view.php?id=3770 for more details.
+
+      (Specify +UVM_NO_RELNOTES to turn off this notice)
+
+UVM_INFO @ 0: reporter [RNTST] Running test my_test_type_da3...
+*Verdi* Loading libsscore_vcs201809.so
+FSDB Dumper for VCS, Release Verdi_O-2018.09-SP2, Linux x86_64/64bit, 02/21/2019
+(C) 1996 - 2019 by Synopsys, Inc.
+*Verdi* FSDB: FSDB_ENV_NOVAS_LOCK environment variable is set.
+*Verdi* FSDB: Invoke Novas locking scheme instead.
+*Verdi* : Create FSDB file '../tb/tb_top.fsdb'
+UVM_INFO @ 0: reporter [UVMTOP] UVM testbench topology:
+uvm_test_top: (my_test_type_da3@455) {
+  m_env: (my_env@463) {
+    m_agent: (master_agent@479) {
+      m_driv: (my_driver@614) {
+        rsp_port: (uvm_analysis_port@631) @631 
+        seq_item_port: (uvm_seq_item_pull_port@622) @622 
+      }
+      m_moni: (my_monitor@640) @640 
+      m_seqr: (uvm_sequencer@491) {
+        rsp_export: (uvm_analysis_export@499) @499 
+        seq_item_export: (uvm_seq_item_pull_imp@605) @605 
+        arbitration_queue: - 
+        lock_queue: - 
+        num_last_reqs: 'd1 
+        num_last_rsps: 'd1 
+      }
+    }
+  }
+}
+
+UVM_INFO ../sv/my_transaction.sv(143) @ 0: uvm_test_top.m_env.m_agent.m_moni [MON_RUN_PHASE] Monitor run!
+UVM_INFO ../sv/my_transaction.sv(143) @ 100: uvm_test_top.m_env.m_agent.m_moni [MON_RUN_PHASE] Monitor run!
+UVM_INFO ../sv/my_transaction.sv(98) @ 100: uvm_test_top.m_env.m_agent.m_driv [DRV_RESET_PHASE] Now driver reset the DUT...
+UVM_INFO ../sv/my_transaction.sv(143) @ 200: uvm_test_top.m_env.m_agent.m_moni [MON_RUN_PHASE] Monitor run!
+UVM_INFO ../sv/my_transaction.sv(105) @ 200: uvm_test_top.m_env.m_agent.m_driv [DRV_CONFIGURE_PHASE] Now driver config the DUT...
+UVM_INFO ../sv/my_transaction.sv(143) @ 300: uvm_test_top.m_env.m_agent.m_moni [MON_RUN_PHASE] Monitor run!
+UVM_INFO ../sv/my_transaction.sv(143) @ 400: uvm_test_top.m_env.m_agent.m_moni [MON_RUN_PHASE] Monitor run!
+UVM_INFO ../sv/my_transaction.sv(143) @ 500: uvm_test_top.m_env.m_agent.m_moni [MON_RUN_PHASE] Monitor run!
+UVM_INFO ../sv/my_transaction.sv(143) @ 600: uvm_test_top.m_env.m_agent.m_moni [MON_RUN_PHASE] Monitor run!
+UVM_INFO ../sv/my_transaction.sv(143) @ 700: uvm_test_top.m_env.m_agent.m_moni [MON_RUN_PHASE] Monitor run!
+UVM_INFO ../sv/my_transaction.sv(143) @ 800: uvm_test_top.m_env.m_agent.m_moni [MON_RUN_PHASE] Monitor run!
+UVM_INFO ../sv/my_transaction.sv(143) @ 900: uvm_test_top.m_env.m_agent.m_moni [MON_RUN_PHASE] Monitor run!
+UVM_INFO ../sv/my_transaction.sv(143) @ 1000: uvm_test_top.m_env.m_agent.m_moni [MON_RUN_PHASE] Monitor run!
+UVM_INFO ../sv/my_transaction.sv(143) @ 1100: uvm_test_top.m_env.m_agent.m_moni [MON_RUN_PHASE] Monitor run!
+UVM_INFO ../sv/my_transaction.sv(143) @ 1200: uvm_test_top.m_env.m_agent.m_moni [MON_RUN_PHASE] Monitor run!
+UVM_INFO ../sv/my_transaction.sv(143) @ 1300: uvm_test_top.m_env.m_agent.m_moni [MON_RUN_PHASE] Monitor run!
+UVM_INFO ../sv/my_transaction.sv(143) @ 1400: uvm_test_top.m_env.m_agent.m_moni [MON_RUN_PHASE] Monitor run!
+UVM_INFO ../sv/my_transaction.sv(143) @ 1500: uvm_test_top.m_env.m_agent.m_moni [MON_RUN_PHASE] Monitor run!
+UVM_INFO ../sv/my_transaction.sv(143) @ 1600: uvm_test_top.m_env.m_agent.m_moni [MON_RUN_PHASE] Monitor run!
+UVM_INFO ../sv/my_transaction.sv(143) @ 1700: uvm_test_top.m_env.m_agent.m_moni [MON_RUN_PHASE] Monitor run!
+UVM_INFO ../sv/my_transaction.sv(143) @ 1800: uvm_test_top.m_env.m_agent.m_moni [MON_RUN_PHASE] Monitor run!
+UVM_INFO ../sv/my_transaction.sv(143) @ 1900: uvm_test_top.m_env.m_agent.m_moni [MON_RUN_PHASE] Monitor run!
+UVM_INFO ../sv/my_transaction.sv(143) @ 2000: uvm_test_top.m_env.m_agent.m_moni [MON_RUN_PHASE] Monitor run!
+UVM_INFO ../sv/my_transaction.sv(143) @ 2100: uvm_test_top.m_env.m_agent.m_moni [MON_RUN_PHASE] Monitor run!
+UVM_INFO ../sv/my_transaction.sv(143) @ 2200: uvm_test_top.m_env.m_agent.m_moni [MON_RUN_PHASE] Monitor run!
+UVM_INFO ../sv/my_transaction.sv(143) @ 2300: uvm_test_top.m_env.m_agent.m_moni [MON_RUN_PHASE] Monitor run!
+UVM_INFO ../sv/my_transaction.sv(143) @ 2400: uvm_test_top.m_env.m_agent.m_moni [MON_RUN_PHASE] Monitor run!
+UVM_INFO ../sv/my_transaction.sv(143) @ 2500: uvm_test_top.m_env.m_agent.m_moni [MON_RUN_PHASE] Monitor run!
+UVM_INFO ../sv/my_transaction.sv(143) @ 2600: uvm_test_top.m_env.m_agent.m_moni [MON_RUN_PHASE] Monitor run!
+UVM_INFO ../sv/my_transaction.sv(143) @ 2700: uvm_test_top.m_env.m_agent.m_moni [MON_RUN_PHASE] Monitor run!
+UVM_INFO ../sv/my_transaction.sv(143) @ 2800: uvm_test_top.m_env.m_agent.m_moni [MON_RUN_PHASE] Monitor run!
+UVM_INFO ../sv/my_transaction.sv(143) @ 2900: uvm_test_top.m_env.m_agent.m_moni [MON_RUN_PHASE] Monitor run!
+UVM_INFO ../sv/my_transaction.sv(143) @ 3000: uvm_test_top.m_env.m_agent.m_moni [MON_RUN_PHASE] Monitor run!
+UVM_INFO ../sv/my_transaction.sv(114) @ 3000: uvm_test_top.m_env.m_agent.m_driv [DRV_RUN_PHASE] ------------------------------------------------------------------------------------------------------
+Name                           Type                Size  Value                                        
+------------------------------------------------------------------------------------------------------
+req                            my_transaction_da3  -     @661                                         
+  sa                           integral            4     'hf                                          
+  da                           integral            4     'h3                                          
+  payload                      da(integral)        2     -                                            
+    [0]                        integral            8     'hbe                                         
+    [1]                        integral            8     'hbc                                         
+  begin_time                   time                64    3000                                         
+  depth                        int                 32    'd2                                          
+  parent sequence (name)       string              11    my_sequence                                  
+  parent sequence (full name)  string              45    uvm_test_top.m_env.m_agent.m_seqr.my_sequence
+  sequencer                    string              33    uvm_test_top.m_env.m_agent.m_seqr            
+------------------------------------------------------------------------------------------------------
+
+UVM_INFO ../sv/my_transaction.sv(143) @ 3100: uvm_test_top.m_env.m_agent.m_moni [MON_RUN_PHASE] Monitor run!
+UVM_INFO ../sv/my_transaction.sv(114) @ 3100: uvm_test_top.m_env.m_agent.m_driv [DRV_RUN_PHASE] ------------------------------------------------------------------------------------------------------
+Name                           Type                Size  Value                                        
+------------------------------------------------------------------------------------------------------
+req                            my_transaction_da3  -     @690                                         
+  sa                           integral            4     'h8                                          
+  da                           integral            4     'h3                                          
+  payload                      da(integral)        3     -                                            
+    [0]                        integral            8     'hbc                                         
+    [1]                        integral            8     'ha1                                         
+    [2]                        integral            8     'hd9                                         
+  begin_time                   time                64    3100                                         
+  depth                        int                 32    'd2                                          
+  parent sequence (name)       string              11    my_sequence                                  
+  parent sequence (full name)  string              45    uvm_test_top.m_env.m_agent.m_seqr.my_sequence
+  sequencer                    string              33    uvm_test_top.m_env.m_agent.m_seqr            
+------------------------------------------------------------------------------------------------------
+
+UVM_INFO ../sv/my_transaction.sv(143) @ 3200: uvm_test_top.m_env.m_agent.m_moni [MON_RUN_PHASE] Monitor run!
+UVM_INFO ../sv/my_transaction.sv(114) @ 3200: uvm_test_top.m_env.m_agent.m_driv [DRV_RUN_PHASE] ------------------------------------------------------------------------------------------------------
+Name                           Type                Size  Value                                        
+------------------------------------------------------------------------------------------------------
+req                            my_transaction_da3  -     @694                                         
+  sa                           integral            4     'hb                                          
+  da                           integral            4     'h3                                          
+  payload                      da(integral)        2     -                                            
+    [0]                        integral            8     'he7                                         
+    [1]                        integral            8     'hf                                          
+  begin_time                   time                64    3200                                         
+  depth                        int                 32    'd2                                          
+  parent sequence (name)       string              11    my_sequence                                  
+  parent sequence (full name)  string              45    uvm_test_top.m_env.m_agent.m_seqr.my_sequence
+  sequencer                    string              33    uvm_test_top.m_env.m_agent.m_seqr            
+------------------------------------------------------------------------------------------------------
+
+UVM_INFO ../sv/my_transaction.sv(143) @ 3300: uvm_test_top.m_env.m_agent.m_moni [MON_RUN_PHASE] Monitor run!
+UVM_INFO ../sv/my_transaction.sv(143) @ 3400: uvm_test_top.m_env.m_agent.m_moni [MON_RUN_PHASE] Monitor run!
+UVM_INFO /nas/usr/synopsys/vcs-mx/O-2018.09-SP2/etc/uvm-1.1/base/uvm_objection.svh(1273) @ 3400: reporter [TEST_DONE] 'run' phase is ready to proceed to the 'extract' phase
+
+#### Factory Configuration (*)
+
+No instance overrides are registered with this factory
+
+Type Overrides:
+
+  Requested Type  Override Type     
+  --------------  ------------------
+  my_transaction  my_transaction_da3
+
+All types registered with the factory: 50 total
+(types without type names will not be printed)
+
+  Type Name
+  ---------
+  master_agent
+  my_driver
+  my_env
+  my_monitor
+  my_sequence
+  my_test
+  my_test_type_da3
+  my_transaction
+  my_transaction_da3
+  snps_uvm_reg_bank_group
+  snps_uvm_reg_map
+(*) Types with no associated type name will be printed as <unknown>
+
+####
+
+
+--- UVM Report Summary ---
+
+** Report counts by severity
+UVM_INFO :   43
+UVM_WARNING :    0
+UVM_ERROR :    0
+UVM_FATAL :    0
+** Report counts by id
+[DRV_CONFIGURE_PHASE]     1
+[DRV_RESET_PHASE]     1
+[DRV_RUN_PHASE]     3
+[MON_RUN_PHASE]    35
+[RNTST]     1
+[TEST_DONE]     1
+[UVMTOP]     1
+$finish called from file "/nas/usr/synopsys/vcs-mx/O-2018.09-SP2/etc/uvm-1.1/base/uvm_root.svh", line 439.
+$finish at simulation time                 3400
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 3400 ns
+CPU Time:      0.660 seconds;       Data structure size:   0.4Mb
+Wed Sep  6 18:43:12 2023

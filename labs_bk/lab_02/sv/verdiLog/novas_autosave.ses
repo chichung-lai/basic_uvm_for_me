@@ -1,0 +1,62 @@
+@verdi rc file Version 1.0
+[General]
+saveDB = TRUE
+relativePath = FALSE
+saveSingleView = FALSE
+saveNWaveWinId = 
+VerdiVersion = Verdi_O-2018.09-SP2
+[KeyNote]
+Line1 = Automatic Backup 0
+Line2 = Save Open Database Information: Yes
+Line3 = Path Option: Absolute Paths
+Line4 = Windows Option: All Windows
+[TestBench]
+ConstrViewShow = 0
+InherViewShow = 0
+FSDBMsgShow = 0
+AnnotationShow = 0
+Console = TRUE
+powerDumped = 0
+[hb]
+postSimFile = /home/ICer/Documents/basic_uvm/labs/lab_02/sv/inter.fsdb
+syncTime = 3400
+viewport = 489 111 900 700 0 0 214 592
+activeNode = "test"
+activeScope = "run_test"
+activeFile = "/home/synopsys/vcs-mx/O-2018.09-1/etc/uvm/base/uvm_root.svh#inc__uvm_pkg__56#"
+interactiveMode = False
+viewType = Source
+simulatorMode = False
+sourceBeginLine = 428
+baMode = False
+srcLineNum = True
+AutoWrap = True
+IdentifyFalseLogic = False
+syncSignal = False
+traceMode = Hierarchical
+showTraceInSchema = True
+paMode = False
+funcMode = False
+powerAwareAnnot = True
+amsAnnot = True
+traceCrossHier = True
+DnDtraceCrossHierOnly = True
+traceIncTopPort = False
+leadingZero = False
+signalPane = False
+Scope1 = "run_test"
+Scope2 = "test"
+rangeSelection = 436 436 1 6 1 1
+sdfCheckUndef = FALSE
+simFlow = FALSE
+[hb.design]
+importCmd = "-simflow" "-dbdir" "./simv.daidir" 
+invokeDir = /home/ICer/Documents/basic_uvm/labs/lab_02/sv
+[hb.sourceTab.1]
+scope = run_test
+File = /home/synopsys/vcs-mx/O-2018.09-1/etc/uvm/base/uvm_root.svh#inc__uvm_pkg__56#
+Line = 429
+[nMemoryManager]
+WaveformFile = /home/ICer/Documents/basic_uvm/labs/lab_02/sv/inter.fsdb
+UserActionNum = 0
+nMemWindowNum = 0

@@ -1,0 +1,12 @@
+enc_
+vitt
+tihs
+ganet
+uvm_config_db#(env_config)::get(this, "m_env", "enc_cfg", m_env_cfg);  //get --> set
+                                                                       //enc --> env
+$diplay
+function pre_reset_phase --> task
+endfunction -->endtask
+
+payoad
+viryual

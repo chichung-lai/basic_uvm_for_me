@@ -1,0 +1,27 @@
+Command: vcs -sverilog -timescale=1ns/1ns +acc +vpi -debug_all -fsdb -CFLAGS -DVCS \
++plusarg_save +ntb_random_seed_automatic -ntb_opts uvm-1.1 -full64 +lint=TFIPC-L \
+-kdb +notimingcheck +nospecify +define+functional -P /nas/usr/novas/Novas/share/PLI/vcs72/LINUX64/debussy.tab \
+/nas/usr/novas/Novas/share/PLI/vcs72/LINUX64/pli.a +incdir+. +incdir+../env +incdir+../test \
+-f ./filelist/tb.list +define+SIM_SPEEDUP -l ./vcs_compile.log +incdir+../sv/
+                         Chronologic VCS (TM)
+        Version O-2018.09-1_Full64 -- Fri Jun 28 00:11:06 2024
+               Copyright (c) 1991-2018 by Synopsys Inc.
+                         ALL RIGHTS RESERVED
+
+This program is proprietary and confidential information of Synopsys Inc.
+and may be used and disclosed only as authorized in a license agreement
+controlling such use and disclosure.
+
+
+Warning-[DEPRECATED_OPTION] Deprecated option used
+  The specified option '+acc' is deprecated.
+  Please use '-debug_access+r+w+nomemcbk -debug_region+cell' instead.
+
+
+Error-[COP_PLI_TAB] Cannot open pli table file
+  Cannot open pli table file 
+  '/nas/usr/novas/Novas/share/PLI/vcs72/LINUX64/debussy.tab'.
+  Please make sure tab file exists and readable.
+
+Bad command line arg encountered
+CPU time: .218 seconds to compile

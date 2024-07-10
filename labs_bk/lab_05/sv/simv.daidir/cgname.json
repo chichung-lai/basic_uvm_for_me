@@ -1,0 +1,74 @@
+{
+    "uvm_custom_install_recording": [
+        "uvm_custom_install_recording",
+        "nhiwz",
+        "module",
+        7
+    ],
+    "_vcs_DPI_package": [
+        "_vcs_DPI_package",
+        "uM9F1",
+        "module",
+        1
+    ],
+    "_vcs_msglog": [
+        "_vcs_msglog",
+        "zQBzV",
+        "module",
+        6
+    ],
+    "top": [
+        "top",
+        "Emx8S",
+        "module",
+        11
+    ],
+    "router": [
+        "router",
+        "yFjQe",
+        "module",
+        10
+    ],
+    "dut_interface": [
+        "dut_interface",
+        "bLknI",
+        "module",
+        9
+    ],
+    "vcs_paramclassrepository": [
+        "vcs_paramclassrepository",
+        "hEeZs",
+        "module",
+        2
+    ],
+    "_vcs_unit__3211596176": [
+        "_vcs_unit__3211596176",
+        "VufyY",
+        "module",
+        3
+    ],
+    "uvm_custom_install_verdi_recording": [
+        "uvm_custom_install_verdi_recording",
+        "EbjT3",
+        "module",
+        8
+    ],
+    "std": [
+        "std",
+        "reYIK",
+        "module",
+        4
+    ],
+    "uvm_pkg": [
+        "uvm_pkg",
+        "zr7M1",
+        "module",
+        5
+    ],
+    "...MASTER...": [
+        "SIM",
+        "amcQw",
+        "module",
+        12
+    ]
+}

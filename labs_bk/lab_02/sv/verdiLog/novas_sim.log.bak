@@ -1,0 +1,40 @@
+Invoking simulator...
+
+./simv +UVM_TESTNAME=my_test +UVM_VERDI_TRACE=UVM_AWARE+RAL+HIER+COMPWAVE +UVM_TR_RECORD -a sim.log -sml=verdi +fsdb+gate=off -ucli2Proc -ucli
+debImport "-i" "-simflow" "-dbdir" "./simv.daidir"
+Chronologic VCS simulator copyright 1991-2018
+Contains Synopsys proprietary information.
+Compiler version O-2018.09-1_Full64; Runtime version O-2018.09-1_Full64;  Jun 21 00:07 2024
+
+*Verdi* Loading libsscore_vcs201809.so
+
+FSDB Dumper for VCS, Release Verdi_O-2018.09-SP2, Linux x86_64/64bit, 02/21/2019
+(C) 1996 - 2019 by Synopsys, Inc.
+
+*Verdi* : Create FSDB file '/home/ICer/Documents/basic_uvm/labs/lab_02/sv/inter.fsdb'
+
+*Verdi* : Flush all FSDB Files at 0 ns.
+
+*Verdi* : Enable RPC Server(104592)
+
+srcTBInvokeSim
+----------------------------------------------------------------
+UVM-1.1d.Synopsys
+(C) 2007-2013 Mentor Graphics Corporation
+(C) 2007-2013 Cadence Design Systems, Inc.
+(C) 2006-2013 Synopsys, Inc.
+(C) 2011-2013 Cypress Semiconductor Corp.
+----------------------------------------------------------------
+  ***********       IMPORTANT RELEASE NOTES         ************
+  You are using a version of the UVM library that has been compiled
+  with `UVM_NO_DEPRECATED undefined.
+  See http://www.eda.org/svdb/view.php?id=3313 for more details.
+  You are using a version of the UVM library that has been compiled
+  with `UVM_OBJECT_MUST_HAVE_CONSTRUCTOR undefined.
+  See http://www.eda.org/svdb/view.php?id=3770 for more details.
+      (Specify +UVM_NO_RELNOTES to turn off this notice)
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 0 ns
+CPU Time:      0.320 seconds;       Data structure size:   0.4Mb
+Fri Jun 21 00:07:09 2024
+debExit
